@@ -1,5 +1,5 @@
 <div id="top">
-<h1 align="center">Coffee 🧑‍⚕️</h1>
+<h1 align="center">Coffee 🍵☕</h1>
   <br>
 
 
@@ -40,49 +40,22 @@
 
 <img src="/src/images/Home.png" alt="Home Page"/>
 
-### Hero
 
-<img src="/client/src/images/home.png" alt='hero'/>
+### History page
 
-### Sign in page
+<img src="/src/images/history.png" alt='history'/>
 
-<img src="/src/images/signin.png" alt='signin'/>
+### Coffee typess page
+  ### Hot Coffee
+<img src="/src/images/Hot coffee.png" alt='coffee'/>
+  ### espresso Coffee
+<img src="/src/images/espresso.png" alt='coffee'/>
+  ### Ice Coffee
+<img src="/src/images/icCoffee.png" alt=''/>
 
-### Profile page
+### Health and benefits
 
-<img src="/client/src/images/profile.png" alt='profile'/>
-
-### All Doctors page
-
-<img src="/client/src/images/doctors.png" alt='doctors'/>
-
-### Apply for doctor page
-
-<img src="/client/src/images/docapply.png" alt='applyfordoctor'/>
-
-### Admin all users dashboard
-
-<img src="/client/src/images/users.png" alt='users'/>
-
-### Admin all applications page
-
-<img src="/client/src/images/applicaions.png" alt='applications'/>
-
-### Book Appointment page
-
-<img src="/client/src/images/bookappointment.png" alt='bookappointment'/>
-
-### Users all appointments page
-
-<img src="/client/src/images/userappointments (2).png" alt='appointments'/>
-
-### Doctors all appointments page
-
-<img src="/client/src/images/doctorappointments.png" alt='appointments'/>
-
-### Notifications page
-
-<img src="/client/src/images/notifications.png" alt='notifications'/>
+<img src="/src/images/health benefits.png" alt='health'/>
 
 
 
