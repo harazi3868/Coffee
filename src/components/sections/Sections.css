@@ -1,0 +1,101 @@
+.serv-title {
+    color: var(--clr-white);
+    text-align: center;
+    font-weight: 400;
+    padding: 5rem 0;
+    position: relative;
+  }
+
+  .serv-section {
+    padding: 0 10rem;
+    background-color: #000;
+  }
+  
+  .el-section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .element {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    margin-bottom: 5rem;
+  }
+
+  .one {
+    background-image: url("https://images.unsplash.com/photo-1525445842399-d8a6bec24be2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    background-size: cover;
+  }
+
+  .two {
+    background-image: url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    background-size: cover;
+  }
+
+  .three {
+    background-image: url("https://images.unsplash.com/photo-1442512595331-e89e73853f31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    background-size: cover;
+  }
+  
+  .element::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    background: var(--clr-primary-10);
+    border-radius: 20px;
+    opacity: .6;
+  }
+  
+  .el-title{
+    color: white;
+    font-size: 3rem;
+    font-weight: 300;
+    position: absolute;
+    line-height: 2.4rem;
+    top:65%;
+    left: 10%;
+  }
+  
+  .el-title:hover{
+    transform: scale(1.1);
+    transition: var(--mainTransition);
+  }
+
+  @media screen and (max-width:780px) {
+
+    .el-section{
+      padding: 0 5rem;
+    }
+
+    .el-title{
+      color: white;
+      font-size: 3rem;
+      font-weight: 300;
+      position: absolute;
+      line-height: 2rem;
+      top:55%;
+      left: 10%;
+    }
+
+    .serv-section {
+      padding: 0;
+      background: #000;
+    }
+    .serv-title {
+      font-size: 28px;
+      padding-left: 3rem;
+    }
+    .element {
+      width: 250px;
+      height: 150px;
+    }
+    .el-title{
+      font-size: 1.5rem;
+    }
+  }
